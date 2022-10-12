@@ -1,0 +1,46 @@
+<html>
+<h1> hello vinayaka2!!</h1>
+</html>
+
+
+linux commands
+
+1) echo "`hostname -I | awk '{ print $1 } '` `hostname`" > > / etc/hosts
+2) hostname
+3) hostnamectl set-hostname "ansible-cp.vini.com"
+4) runlevel
+5) systemctl get-default
+6) id
+7) ls -lrt
+8) ls -lrta
+9) cd .ss
+10) ls -lrt
+11) sudo apt-get install git wget ungip curl tree -y
+12 ls -lrt /bin/sh
+
+13  ls -lrt /bin/bash
+14  ls -lrt /bin/ksh
+15  ls -lrt /bin/csh
+pwd
+ ls -lrt /etc/apt/sources.list 
+cat /etc/apt/sources.list
+
+to run the application need command: ps -aux | grep apache2 
+systemctl status apache2
+ifconfig
+whatis ifconfig
+whereis ifconfig
+man ifconfig : it will give details all (description)
+systemctl set-default graphical.target
+ echo "this is apache" > index.html
+
+html to opt window( its just a folder)
+cd /opt
+
+git clone to website apache2 (ec2 instance)
+git clone https://github.com/Subuthai/VerySimplePortfolio.git 
+ ls -lrt
+cd VerySimplePortfolio/ 
+ls -lrt
+copy everything to webserver I.e
+cp -pvr * /var/www/html
